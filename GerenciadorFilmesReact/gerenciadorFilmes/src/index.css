@@ -1,0 +1,53 @@
+.nav {
+  color: #f3f3f3 !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f3f3f3 !important;
+}
+
+.custom-btn {
+  width: 200px;
+  margin-bottom: 10px;
+  margin: 5px; 
+}
+
+/* Estilos para o formulário */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #143447;
+  border-radius: 55px;
+}
+
+/* Estilos para os rótulos */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f3f3f3;
+}
+
+/* Estilos para os campos de entrada */
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 55px;
+  color: #000;
+  background-color: #ffffff;
+}
+
+h2{
+  color: #f3f3f3;
+}
+
+.form-button {
+  /* Seus estilos personalizados aqui */
+  background-color: #007bff; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  /* Outros estilos desejados */
+}
