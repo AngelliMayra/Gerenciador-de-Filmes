@@ -5,6 +5,12 @@
 
 body {
   background-color: #f3f3f3 !important;
+  background-image: url('Imagens/imagem-bg4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+    
 }
 
 .custom-btn {
@@ -41,13 +47,22 @@ body {
   background-color: #ffffff;
 }
 
+h1{
+  color: #f3f3f3;
+}
+
 h2{
   color: #f3f3f3;
 }
 
 .form-button {
-  /* Seus estilos personalizados aqui */
+ 
   background-color: #007bff; /* Cor de fundo */
   color: #fff; /* Cor do texto */
-  /* Outros estilos desejados */
+  
+}
+
+header{
+  background-color: transparent;
+
 }

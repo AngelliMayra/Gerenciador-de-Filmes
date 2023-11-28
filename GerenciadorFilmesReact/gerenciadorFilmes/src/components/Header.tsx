@@ -9,7 +9,7 @@ const Logo = () => {
     <Navbar.Brand href="/" className="mr-auto">
       <img
         alt=""
-        src="/logotipo.png"
+        src="/imagens/logotipo2.png"
         width="120"
         height="120"
         className="d-inline-block align-top"
@@ -30,6 +30,9 @@ const Menu = () => {
   return (
     <div className="text-center">
       <button type="button" className="btn btn-secondary custom-btn mr-2" style={{ width: '160px' }}>
+        <Link to="/" className="nav-link text-white">Página Inicial</Link>
+      </button>
+      <button type="button" className="btn btn-secondary custom-btn mr-2" style={{ width: '160px' }}>
         <Link to="/criar-filme" className="nav-link text-white">Adicionar Filme</Link>
       </button>
       <button type="button" className="btn btn-secondary custom-btn" style={{ width: '160px' }}>
@@ -39,9 +42,10 @@ const Menu = () => {
   );
 };
 
+
 const Header = () => {
   return (
-    <Navbar style={{ backgroundColor: '#143447' }} variant="dark">
+    <Navbar style={{ backgroundColor: 'transparent' }} variant="dark">
       <Logo />
       <div className="w-100">
         <Title />
